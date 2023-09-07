@@ -28,10 +28,17 @@ a {
   height: 100vh;
 }
 
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12%;
+}
+
 .login-card {
   width: 400px;
   height: 450px;
-  border: 2px solid #ccc;
+  border: 2px solid inherit;
   background-color: inherit;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(10px);
 }
