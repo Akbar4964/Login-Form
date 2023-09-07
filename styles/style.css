@@ -78,3 +78,34 @@ a {
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.login-email {
+  padding: 15px 50px 0 50px;
+}
+
+.login-email > div {
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-input {
+  border-bottom: 3px solid #fff;
+  border-radius: 15px;
+  padding: 0 15px;
+  display: flex;
+}
+
+.login-input > input {
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+  outline: 0;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding: 0 15px;
+}
