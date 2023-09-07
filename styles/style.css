@@ -28,11 +28,11 @@ a {
   height: 100vh;
 }
 
-.card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 12%;
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12%;
 }
 
 .login-card {
@@ -41,4 +41,5 @@ a {
   border: 2px solid inherit;
   background-color: inherit;
   backdrop-filter: blur(10px);
+  border-radius: 20px;
 }
