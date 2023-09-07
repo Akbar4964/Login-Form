@@ -38,7 +38,6 @@ a {
 .login-card {
   width: 400px;
   height: 450px;
-  border: 2px solid inherit;
   background-color: inherit;
   backdrop-filter: blur(10px);
   border-radius: 20px;
