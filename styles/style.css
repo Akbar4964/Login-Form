@@ -48,6 +48,10 @@ a {
     background-image: url(/assets/img/dark3.jpg);
     height: 100vh;
   }
+  100% {
+    background-image: url(/assets/img/dark4.jpg);
+    height: 100vh;
+  }
 }
 
 .card {
