@@ -20,3 +20,10 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.login {
+  background-image: url(/assets/img/dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
