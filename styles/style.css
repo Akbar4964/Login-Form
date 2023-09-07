@@ -91,14 +91,49 @@ a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.login-input {
-  border-bottom: 3px solid #fff;
+.login-email-input {
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
   border-radius: 15px;
   padding: 0 15px;
   display: flex;
+  margin-top: 7px;
 }
 
-.login-input > input {
+.login-email-input > input {
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+  outline: 0;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding: 0 15px;
+}
+
+.login-password {
+  padding: 15px 50px 0 50px;
+}
+
+.login-password > div {
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-password-input {
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  border-radius: 15px;
+  padding: 0 15px;
+  display: flex;
+  margin-top: 7px;
+}
+
+.login-password-input > input {
   width: 100%;
   border: 0;
   background-color: transparent;
