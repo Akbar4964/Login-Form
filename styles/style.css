@@ -42,3 +42,13 @@ a {
   backdrop-filter: blur(10px);
   border-radius: 20px;
 }
+
+.login-title {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
