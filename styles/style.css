@@ -26,6 +26,24 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  animation-name: login;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes login {
+  0% {
+    background-image: url(/assets/img/dark.webp);
+    height: 100vh;
+  }
+  25% {
+    background-image: url(/assets/img/dark1.jpg);
+    height: 100vh;
+  }
+  50% {
+    background-image: url(/assets/img/);
+    height: 100vh;
+  }
 }
 
 .card {
