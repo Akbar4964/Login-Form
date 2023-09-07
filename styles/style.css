@@ -26,4 +26,13 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  text-align: center;
+}
+
+.login-card {
+  width: 400px;
+  height: 450px;
+  border: 2px solid #ccc;
+  background-color: inherit;
+  backdrop-filter: blur(15px);
 }
