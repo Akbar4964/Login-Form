@@ -27,7 +27,7 @@ a {
   background-repeat: no-repeat;
   height: 100vh;
   animation-name: login;
-  animation-duration: 7s;
+  animation-duration: 17s;
   animation-iteration-count: infinite;
 }
 
@@ -42,6 +42,10 @@ a {
   }
   50% {
     background-image: url(/assets/img/dark2.jpg);
+    height: 100vh;
+  }
+  75% {
+    background-image: url(/assets/img/dark3.jpg);
     height: 100vh;
   }
 }
