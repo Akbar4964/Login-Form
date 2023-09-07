@@ -67,6 +67,7 @@ a {
   background-color: inherit;
   backdrop-filter: blur(10px);
   border-radius: 20px;
+  position: relative;
 }
 
 .login-title {
@@ -197,4 +198,10 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   background-color: transparent;
   cursor: pointer;
+  transition: 0.2s;
+}
+
+.login-button > button:active {
+    color: inherit;
+    background-color: #fff;
 }
